@@ -134,5 +134,5 @@ The project is designed to be modular:
 ## Author
 
 **Matthis Brocheton**
-
 Artificial Intelligence & Data Science Student
+
