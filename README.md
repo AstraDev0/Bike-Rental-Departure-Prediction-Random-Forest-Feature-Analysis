@@ -18,15 +18,20 @@ The goal of this project is to build a reliable predictive model to estimate the
 ```
 ccu-ml-project/
 │
-├── main.py                 # Main script for training and evaluation
-├── requirements.txt        # Project dependencies
+├── main.py
+├── requirements.txt
 ├── .gitignore
 ├── src/
-│   └── datas.py            # Data loading and preprocessing module
+│   └── datas.py
 └── data/
     └── historical/
-        ├── 2024_station_event_1h.parquet  # Hourly aggregated data
-        └── 2024_trips.csv                 # Raw trip data
+        ├── 2024_station_event_10min.parquet
+        ├── 2024_station_event_1h.parquet
+        ├── 2024_station_event_30min.parquet
+        ├── 2024_station_status_10min.parquet
+        ├── 2024_station_status_1h.parquet
+        ├── 2024_station_status_30min.parquet
+        └── 2024_trips.csv
 ```
 
 ---
@@ -129,4 +134,5 @@ The project is designed to be modular:
 ## Author
 
 **Matthis Brocheton**
+
 Artificial Intelligence & Data Science Student
